@@ -5,10 +5,11 @@
 <p>Are you sure you want to delete this?</p>
 
 <p>
-    <strong>Code:</strong> @Model.Id <br />
+    <strong>Id:</strong> @Model.Id <br />
+    <strong>Name:</strong> @Model.Name <br />
 </p>
 
-@using (Html.BeginForm("DeleteConfirmed", "Import"))
+@using (Html.BeginForm("DeleteConfirmed", "Company"))
 {
     @Html.AntiForgeryToken()
 
