@@ -1,0 +1,2 @@
+C:\desenvolvimento\TreinamentoDotNet\TreinamentoDotNet.Tests\obj\Debug\TreinamentoDotNet.Tests.csproj.AssemblyReference.cache
+C:\desenvolvimento\TreinamentoDotNet\TreinamentoDotNet.Tests\obj\Debug\TreinamentoDotNet.Tests.csproj.CoreCompileInputs.cache
