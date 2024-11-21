@@ -1,4 +1,7 @@
 ﻿@model TreinamentoDotNet.ViewModel.Company.CompanyDeleteViewModel
+@{
+ Layout = "~/Views/Shared/_Layout.cshtml";  
+}
 
 <h2>Delete Import</h2>
 
@@ -7,6 +10,7 @@
 <p>
     <strong>Id:</strong> @Model.Id <br />
     <strong>Name:</strong> @Model.Name <br />
+    <strong>Cnpj:</strong> @Model.Cnpj <br />
 </p>
 
 @using (Html.BeginForm("DeleteConfirmed", "Company"))

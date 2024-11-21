@@ -11,5 +11,7 @@ namespace TreinamentoDotNet.ViewModel.Company
 
         public string Name { get; set; }
 
+        public string Cnpj { get; set; }
+
     }
 }

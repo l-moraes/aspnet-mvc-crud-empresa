@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Services.Description;
+using System.ComponentModel.Design;
 
 
 namespace TreinamentoDotNet.Controllers
@@ -132,12 +133,14 @@ namespace TreinamentoDotNet.Controllers
 
         public async Task<ActionResult> Delete(int id)
         {
-            var import = await _context.Company.FirstOrDefaultAsync(i => i.Id == id);
-            if (import == null) return HttpNotFound();
+            var Company = await _context.Company.FirstOrDefaultAsync(i => i.Id == id);
+            if (Company == null) return HttpNotFound();
 
             var viewModel = new CompanyDeleteViewModel
             {
-                Id = id
+                Id = Company.Id,
+                Name = Company.Name,
+                Cnpj = Company.Cnpj
             };
 
             return View(viewModel);
