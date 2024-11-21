@@ -20,7 +20,7 @@
   View details:
   <img src="https://github.com/user-attachments/assets/e669f3b7-b497-48cb-8241-5be39191a1bf" />
   Deleting:
-  <img src="https://github.com/user-attachments/assets/80a1d0d0-ec18-4379-b6c7-cddab08970db" />
+  <img src="https://github.com/user-attachments/assets/383c7277-bda8-4d04-a3f9-28358ab43d16" />
 </div>
 
 ## 📖 About
