@@ -25,7 +25,7 @@
 
 ## 📖 About
 
-ImportCrud is an ASP.NET MVC application targeting .NET Framework 4.8.1. The application provides a platform for managing user authentication, external logins, and basic CRUD operations. It leverages ASP.NET Identity for user management and authentication.
+This company CRUD is an ASP.NET MVC application targeting .NET Framework 4.8.1. The application provides a platform for managing user authentication, external logins, and basic CRUD operations. It leverages ASP.NET Identity for user management and authentication.
 
 ## 🧱 This project was built with:
 
